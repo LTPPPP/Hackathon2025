@@ -1,10 +1,10 @@
-# 🤖 JetBot Autonomous Navigation System - Hackathon 2025 🏆
+# JetBot Autonomous Navigation System - Hackathon 2025
 
-**🏅 3rd Place Winner - FPT University Hackathon 2025**
+**3rd Place Winner - FPT University Hackathon 2025**
 
 An intelligent autonomous robot system capable of navigating three different map types using computer vision, LIDAR sensing, and AI-powered decision making.
 
-## 🌟 Project Overview
+## Project Overview
 
 This project implements an autonomous robot that can successfully complete three distinct warehouse navigation challenges:
 
@@ -12,9 +12,9 @@ This project implements an autonomous robot that can successfully complete three
 - **Problem B**: Multi-task robot navigation with sign reading at Load nodes and server communication
 - **Problem C**: Traffic sign-based navigation with real-time decision making, no pre-provided map, and cargo operations
 
-## 🎯 Key Features
+## Key Features
 
-### 🚛 Problem A - Warehouse Navigation
+### Problem A - Warehouse Navigation
 
 - **Server Integration**: Fetches warehouse map data from server API in JSON format with nodes and edges
 - **Graph-based Navigation**: Navigates warehouse grid using nodes and edges with cardinal directions (N, E, S, W)
@@ -23,7 +23,7 @@ This project implements an autonomous robot that can successfully complete three
 - **Collision Avoidance**: Prevents robot collisions using LIDAR and path planning
 - **End Point Protocol**: Must stop at End node for minimum 5 seconds to complete
 
-### 📦 Problem B - Multi-task Navigation & Sign Reading
+### Problem B - Multi-task Navigation & Sign Reading
 
 - **Sign Reading**: Reads information signs at Load nodes and sends data to server
 - **Multi-node Navigation**: Visits multiple Load nodes before reaching End
@@ -32,7 +32,7 @@ This project implements an autonomous robot that can successfully complete three
 - **End Point Requirements**: Must reach End node and stop for 5 seconds
 - **Map Data**: Provided via server API in JSON format with nodes and edges
 
-### 🚦 Problem C - Traffic Sign Navigation & Cargo Operations
+### Problem C - Traffic Sign Navigation & Cargo Operations
 
 - **Traffic Sign Recognition**: AI-powered detection of directional signs and commands
 - **Sign Types**: Command signs (force direction), prohibition signs (forbidden direction), destination signs (L)
@@ -42,7 +42,7 @@ This project implements an autonomous robot that can successfully complete three
 - **No Backtracking**: Cannot move backward or return to previous direction
 - **Flag-based Control**: Robot only moves when "flag" signal is given by referee
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 ### Development Environment
 
@@ -74,7 +74,7 @@ This project implements an autonomous robot that can successfully complete three
 - **Traffic Sign Classification**: AI models for command/prohibition/destination signs
 - **Collision Detection**: LIDAR-based obstacle avoidance and robot collision prevention
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 jetbot/
@@ -97,7 +97,7 @@ jetbot/
 └── notebooks/                # Jupyter notebooks for development
 ```
 
-## 💻 Development Environment
+## Development Environment
 
 ### Development Setup
 
@@ -119,7 +119,7 @@ The project leverages VIM's powerful features for efficient development:
 - Terminal integration for running scripts
 - Git integration for version control
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -163,7 +163,7 @@ python python_scripts/ros_lidar_follower.py
 python python_scripts/ros_lidar_follower_fixed.py
 ```
 
-## 🎮 Problem Descriptions
+## Problem Descriptions
 
 ### Problem A: Warehouse Navigation
 
@@ -193,7 +193,7 @@ python python_scripts/ros_lidar_follower_fixed.py
 - **No Backtracking**: Cannot move backward or return to previous direction
 - **Flag Control**: Robot only moves when referee gives signal
 
-## 🏁 Competition Rules & Technical Requirements
+## Competition Rules & Technical Requirements
 
 ### Competition Timeline
 
@@ -229,7 +229,7 @@ python python_scripts/ros_lidar_follower_fixed.py
 - **Expressions**: Mathematical expressions (1+2, (1+2), etc.)
 - **Sequences**: Multiple shapes in sequence (square-circle, etc.)
 
-## 🔧 Configuration
+## Configuration
 
 ### Server Configuration
 
@@ -332,9 +332,9 @@ timeout = 5.0
 }
 ```
 
-## 🏆 Competition Results
+## Competition Results
 
-**🥉 3rd Place - FPT University Hackathon 2025**
+**3rd Place - FPT University Hackathon 2025**
 
 This project demonstrated excellence in:
 
@@ -344,7 +344,7 @@ This project demonstrated excellence in:
 - **System Integration**: Seamless hardware-software coordination
 - **Innovation**: Creative solutions to complex navigation challenges
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 - **Problem A**: 95% success rate in warehouse navigation
 - **Problem B**: 90% accuracy in sign reading and multi-task navigation
@@ -381,7 +381,7 @@ This project demonstrated excellence in:
 - **Total Score**: Overall(i) = M₁(i) + M₂(i) + M₃(i)
 - **Tie-breaking**: Problem C ranking → Problem B ranking → Problem A ranking
 
-## 🔧 Technical Implementation Details
+## Technical Implementation Details
 
 ### Server Integration
 
@@ -429,23 +429,19 @@ def submit_sign_detection(text, node_id, token):
 - **Traffic Signs**: Directional signs (WN corner for Problem C)
 - **Information Signs**: Data collection signs (SE corner)
 
-## 🤝 Contributing
-
-We welcome contributions to improve the system! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## 📄 License
-
-This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) for details.
-
-## 👥 Team
+## Team
 
 **FPT University Hackathon 2025 Team**
+
+![Team Photo](TeamOne.jpeg)
+
+_Our winning team celebrating 3rd place at FPT University Hackathon 2025_
 
 - Computer Vision & AI Integration
 - Robotics & Hardware Control
 - Software Architecture & System Integration
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - NVIDIA for JetBot platform and Jetson hardware
 - FPT University for hosting Hackathon 2025
@@ -453,7 +449,3 @@ This project is licensed under the MIT License - see [LICENSE.md](LICENSE.md) fo
 - Fellow competitors for inspiring innovation and collaboration
 
 ---
-
-**🏅 Proud to be 3rd Place Winners at FPT University Hackathon 2025! 🚀**
-
-_Built with ❤️ and lots of ☕ for autonomous robotics excellence_
