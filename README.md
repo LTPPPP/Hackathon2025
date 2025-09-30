@@ -44,6 +44,13 @@ This project implements an autonomous robot that can successfully complete three
 
 ## 🛠️ Technical Stack
 
+### Development Environment
+
+- **Operating System**: Linux (Ubuntu/Debian based)
+- **Code Editor**: VIM - All code developed using VIM text editor
+- **Development Philosophy**: Terminal-first, command-line driven development
+- **Version Control**: Git with command-line interface
+
 ### Hardware
 
 - **JetBot Platform**: NVIDIA Jetson-based autonomous robot
@@ -90,6 +97,28 @@ jetbot/
 └── notebooks/                # Jupyter notebooks for development
 ```
 
+## 💻 Development Environment
+
+### Development Setup
+
+This project was developed entirely on **Linux** using **VIM** as the primary code editor, following a terminal-first development approach:
+
+- **OS**: Linux (Ubuntu/Debian based systems)
+- **Editor**: VIM - All Python scripts, configuration files, and documentation written in VIM
+- **Terminal**: Command-line driven development workflow
+- **Version Control**: Git with command-line interface
+- **Development Philosophy**: Minimal, efficient, and powerful development environment
+
+### VIM Configuration
+
+The project leverages VIM's powerful features for efficient development:
+
+- Syntax highlighting for Python, JSON, and Markdown
+- Code folding and navigation
+- Multi-file editing and buffers
+- Terminal integration for running scripts
+- Git integration for version control
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -98,6 +127,7 @@ jetbot/
 - RPLIDAR A1/A3 sensor
 - Camera module
 - JetBot chassis and motors
+- Linux development environment
 
 ### Installation
 
