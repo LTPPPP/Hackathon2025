@@ -1,0 +1,27 @@
+*.asc
+.ipynb_checkpoints
+
+# MkDocs documentation
+site/
+/jetbot/__pycache__
+/jetbot/camera/__pycache__
+
+# Environment
+.venv/
+venv/
+.env
+
+# Model
+models/
+*.pth
+*.onnx
+*.onnx.gz
+*.onnx.gz.part
+*.onnx.gz.part.1
+*.onnx.gz.part.2
+*.onnx.gz.part.3
+
+# Visual Studio Code
+.vscode/
+
+# Other
